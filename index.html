@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      font-size: 18px;
+      font-family: 'Epilogue',sans-serif;
+      font-weight: 500;
+    }
+    .container{
+      padding: 10px;
+    }
+  
+    li{
+      margin-right: 5px;
+      padding:0 10px;
+      display: inline;
+      color:hsl(0, 0%, 41%)
+    }
+    li:hover{
+      cursor: pointer;
+    }
+    ul {
+  list-style-type: none;
+  width: 100%;
+  /* margin: 0;
+  padding: 0;
+  overflow: hidden; */
+}
+  </style>
+</head>
+<body>
+
+  <!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more -->
+  <div class="container">
+  <hader>
+    <nav style="display: flex;"> 
+      <div style="align-items: center;
+      text-align: center;
+      display: flex;
+      justify-content: center;">
+           <img src="./images/logo.svg" alt="images"/>
+      </div>
+         <ul>
+           <li>Fratures</li>
+        <li>Company</li>
+        <li>Careers</li>
+        <li>About</li>
+    
+        <span style="float: right;">
+            <li>Login</li>
+          <li style="border: 1px solid black; padding: 10px 20px;border-radius: 15px;">Register</li>
+        </span>
+            </ul>
+    </nav>
+  </hader>
+  <div style="  display: flex;justify-content: space-evenly;  padding: 30px 0;">
+    <div >
+      <h1 style=" font-size:5rem;
+      font-weight: 700;">
+      Make <br/>remote work
+      </h1>
+      <p style="color:hsl(0, 0%, 41%) ;font-size: medium;">
+        Get your team in sync, no matter your location.<br/> Streamline processes, 
+        create team rituals, and <br/>watch productivity soar.
+      </p>
+      <h5 style="background-color: hsl(0, 0%, 8%); color:  hsl(0, 0%, 98%);    width: fit-content;
+          border-radius: 10px;
+    padding: 10px 20px;">Learn more</h5>
+    <div style="    padding-top: 5rem;    display: flex;
+    align-items: center;">
+      <img style="padding-right: 15px;" src="./images/client-databiz.svg" alt="databiz"/>
+      <img style="padding-right: 15px;" src="./images/client-audiophile.svg" alt="audiophile"/>
+      <img style="padding-right: 15px;" src="./images/client-meet.svg" alt="meet"/>
+      <img style="padding-right: 15px;" src="./images/client-maker.svg" alt="maker"/>
+    </div>
+    </div>
+    <img src="./images/image-hero-desktop.png" style=" height: 35rem;" width="auto" alt="destop"/>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/gaurav19790" target="_blank">Gaurav singh</a>.
+  </div>
+</div>
+</body>
+</html>
